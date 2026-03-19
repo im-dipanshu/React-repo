@@ -1,10 +1,12 @@
 import Chai from "./chai"
 
 function App() {
+  const username="chai AURS code"
+
   return (
     <>
     <Chai/>
-    <p>Go</p>
+    <p>Go {username}</p>
     </>
   );
 }
