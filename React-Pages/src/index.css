@@ -9,7 +9,7 @@ body{
 .find-button{
   padding: 10px;
   border: none;
-  background-color: rgb(153, 195, 232);
+  background-color: rgb(201, 207, 212);
   border-radius: 5px;
   font-size: 20px;
 }
@@ -40,7 +40,13 @@ img{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: left;
   padding: 20px;
-  height: 30rem;
+  height: 29rem;
+
+}
+.signact{
+  border-top:1px solid #000000;
+  margin-top: 20%;
+  padding-top: 10px;
 }
 .mark{
   background-color: rgb(241, 241, 241);

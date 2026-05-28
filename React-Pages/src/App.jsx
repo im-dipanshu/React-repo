@@ -8,7 +8,7 @@ const App = () => {
       <Logo />
       <div className='Company-Card'>
         <div>
-          <Card name='Google' work='Senior UI/UX Designer'image='https://th.bing.com/th/id/OIP.fdZ1QXChVTeaa5YbnGoaZgHaHa?w=183&h=183&c=7&r=0&o=7&dpr=1.2&pid=1.7&rm=3' />
+          <Card className='s' name='Google' work='Senior UI/UX Designer'image='https://th.bing.com/th/id/OIP.fdZ1QXChVTeaa5YbnGoaZgHaHa?w=183&h=183&c=7&r=0&o=7&dpr=1.2&pid=1.7&rm=3' />
         </div>
         <div>
           <Card name='Netflix' work='Graphic Designer'image='https://th.bing.com/th/id/OIP.XNoGLQtdRIif5uDdIhHtBwHaHa?w=164&h=180&c=7&r=0&o=7&dpr=1.2&pid=1.7&rm=3' />
