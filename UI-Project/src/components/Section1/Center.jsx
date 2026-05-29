@@ -1,0 +1,13 @@
+import React from 'react'
+import LeftText from './LeftText'
+import ImageContainer from './ImageContainer'
+const Center = () => {
+  return (
+    <div className='flex justify-between p-8'>
+        <LeftText></LeftText>
+        <ImageContainer></ImageContainer>
+    </div>
+  )
+}
+
+export default Center
