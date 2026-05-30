@@ -1,13 +1,13 @@
 import React from 'react'
 
-const card = (username) => {
-  console.log(username)
+const card = (user) => {
+  console.log(user)
   return (
     <div>
       <div className='Card'>
-        <img src={username.image}></img>
-        <h1>{username.name}</h1>
-        <h2>{username.work}</h2>
+        <img src={user.image}></img>
+        <h1>{user.name}</h1>
+        <h2>{user.work}</h2>
         <div>
           <button className='mark'>Part Time</button>
           <button className='mark'>Senior Level</button>

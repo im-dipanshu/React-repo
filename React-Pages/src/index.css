@@ -9,9 +9,10 @@ body{
 .find-button{
   padding: 10px;
   border: none;
-  background-color: rgb(201, 207, 212);
+  background-color: rgb(241, 241, 241);
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
 .logo{
   background: linear-gradient(90deg, #2563eb, #7c3aed);
@@ -37,7 +38,7 @@ img{
   width: 80%;
   border-radius: 18px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.8s ease, box-shadow 0.3s ease;
   text-align: left;
   padding: 20px;
   height: 29rem;
@@ -45,7 +46,7 @@ img{
 }
 .signact{
   border-top:1px solid #000000;
-  margin-top: 20%;
+  margin-top: 25%;
   padding-top: 10px;
 }
 .mark{
