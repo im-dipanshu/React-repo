@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: row;
+  background-color: hsl(34, 85%, 60%);
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  height: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+}
+input{
+  padding: 10px 20px;
+}
+button{
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  
+}
