@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#Adding-Area {
+  background-color: black;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#Heading-Area {
+  height: 10%;
+  width: 61%;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  background: none;
+  border: 1px solid gainsboro;
+  color: white;
+  font-size: 20px;
+}
+
+#Text-Area {
+  height: 20%;
+  width: 61%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  outline: none;
+  background: none;
+  border: 1px solid gainsboro;
+  color: white;
+}
+
+#Add-Btn {
+  height: 10%;
+  width: 63%;
+  border-radius: 8px;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+#Note-Area{
+  min-height: 100vh;
+  background-color: black;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+}
+#Content{
+  /* display: flex; */
+}
+#Note-Box{
+  min-height: 250px;
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  /* background: url(https://static.vecteezy.com/system/resources/previews/024/403/832/large_2x/white-crumpled-paper-texture-background-crumpled-paper-ball-isolated-on-white-with-clipping-path-abstract-background-of-crumpled-white-paper-generate-ai-free-photo.jpg); */
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+}
+h1{
+  color: white;
+  font-size: 45px;
+  font-family: monospace;
+}
+h2{
+  font-family: monospace;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+p{
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
