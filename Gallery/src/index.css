@@ -2,14 +2,17 @@ body{
   background-color: #0f172a; /* dark slate */
   color: #f8fafc;
   text-align: center;
+  font-family: monospace;
 }
 #whole{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: center;
 }
 #click{
   padding: 20px 40px;
+  font-size: 20px;
   background-color: #3b82f6; /* blue */
   color: white;
   border: none;
@@ -18,15 +21,19 @@ body{
 }
 
 #content{
-  background-color: #1e293b; /* slightly lighter than body */
-  color: #e2e8f0;
-  padding: 18px;
+  width: 200px;
+  padding: 25px;
+  background-color: #1e293b;
   border-radius: 10px;
-  text-align: center;
 }
 
 img{
   height: 150px;
   width: 150px;
   border-radius: 12px;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+  color: rgb(77, 172, 255);
 }

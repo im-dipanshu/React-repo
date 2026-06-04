@@ -16,8 +16,13 @@ const App = () => {
 
         {userData.map((Elem, index) => {
           return <div id='content'>
-            <img src={Elem.download_url
-            }></img>
+            <a href={`https://picsum.photos/id/${Elem.id}/200/200`}>
+                          <img key={index}
+              src={Elem.download_url
+              }></img>
+            <h1>{Elem.author}</h1>
+            </a>
+
           </div>
         })}
       </div>
