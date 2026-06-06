@@ -71,3 +71,14 @@ a{
 .container .btn:hover {
   background-position: right;
 }
+#Inside{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #1dd1a1;
+}
+h2{
+  font-size: 80px;
+  text-align: center;
+  color: rosybrown;
+}
